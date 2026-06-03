@@ -97,6 +97,69 @@ export const DATA = {
   ],
   projects: [
     {
+  title: "IntentIQ",
+  href: "https://intent-iq.vercel.app/", 
+  dates: "2026 - Present",
+  active: true,
+  description:
+    "IntentIQ is an AI-powered customer support triage platform built using FastAPI and React.js. It performs intent detection, sentiment analysis, intelligent team assignment, and automated response generation using NLP and Transformer-based models. The system also includes owner alerts and escalation handling for high-priority customer issues.",
+  technologies: [
+    "React.js",
+    "FastAPI",
+    "Transformers",
+    "NLP",
+    "Sentiment Analysis",
+    "Tailwind CSS",
+    "HTML",
+    "Python",
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://intent-iq.vercel.app/",
+      icon: <Icons.globe className="size-3" />,
+    },
+    {
+      type: "GitHub",
+      href: "https://github.com/nidhii25/IntentIQ", 
+      icon: <Icons.github className="size-3" />,
+    }
+  ],
+  image: "https://res.cloudinary.com/dn6xjjn10/image/upload/v1780518551/Screenshot_2026-06-04_015741_zzgcn6.png", 
+},
+
+{
+  title: "Keyword Spotting System",
+  href: "https://fslakwss.vercel.app/", 
+  dates: "2026 - Present",
+  active: true,
+  description:
+    "A speech-to-text keyword detection system developed using Whisper, FastAPI, and React.js. The platform converts audio into searchable text transcripts and detects keywords with timestamp-based tracking. It features an interactive frontend and efficient backend processing for audio analysis workflows.",
+  technologies: [
+    "Whisper",
+    "FastAPI",
+    "React.js",
+    "Tailwind CSS",
+    "HTML",
+    "Python",
+    "Speech-to-Text",
+    "NLP",
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://fslakwss.vercel.app/", 
+      icon: <Icons.globe className="size-3" />,
+    },
+    {
+      type: "GitHub",
+      href: "https://github.com/nidhii25/minor-project", 
+      icon: <Icons.github className="size-3" />,
+    }
+  ],
+  image: "https://res.cloudinary.com/dn6xjjn10/image/upload/v1780518541/Screenshot_2026-06-04_014755_gcxkaf.png", 
+},
+    {
       title: "ChatInsight",
       href: "https://chatinsight.vercel.app/login",
       dates: "2025 - Present",
@@ -124,36 +187,6 @@ export const DATA = {
         }
       ],
       image: "https://res.cloudinary.com/dn6xjjn10/image/upload/v1765376029/Screenshot_2025-12-10_194332_u1fcw6.png",
-    },
-
-    {
-      title: "Patient Management System",
-      href: "https://nidhii25-patient-management-system-frontendapp-h16jeu.streamlit.app/",
-      dates: "2025 - Present",
-      active: true,
-      description:
-        "A streamlined patient management platform built using FastAPI and Streamlit. It enables secure and efficient handling of patient records, doctor assignments, and appointment tracking. With validated CRUD operations and a clean UI for managing medical data, the system ensures reliability through a well-structured backend and modular architecture.",
-      technologies: [
-        "StreamLit",
-        "FastAPI",
-        "MongoDB",
-        "HTML",
-        "CSS",
-        "Python",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://nidhii25-patient-management-system-frontendapp-h16jeu.streamlit.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "GitHub",
-          href: "https://github.com/nidhii25/Patient-Management-System",
-          icon: <Icons.github className="size-3" />,
-        }
-      ],
-      image: "https://res.cloudinary.com/dn6xjjn10/image/upload/v1765376428/Screenshot_2025-12-10_194958_lafujs.png",
     },
 
     {
@@ -249,6 +282,7 @@ export const DATA = {
   ],
 
   hackathons: [
+    
     {
       title: "Void Hacks 7.0",
       dates: "November 2025",
